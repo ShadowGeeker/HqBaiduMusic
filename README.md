@@ -14,6 +14,7 @@ HqBaiduMusic for Chrome
 1. 未登录百度账号情况下无法正常使用本插件；
 2. 标准品质和高品质请使用原有下载按钮进行下载；
 3. 有问题请通过邮件反馈，谢谢！
+4. 具体参考[帮助文档](http://www.programlife.net/hqbaidumusic-chrome-extension.html)
 
 Blog
 ===
