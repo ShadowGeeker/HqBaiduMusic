@@ -1,7 +1,8 @@
 HqBaiduMusic
 ============
 
-HqBaiduMusic 百度音乐高品质下载扩展
+HqBaiduMusic for Chrome
+谷歌浏览器百度音乐高品质下载扩展
 
 声明
 ===
