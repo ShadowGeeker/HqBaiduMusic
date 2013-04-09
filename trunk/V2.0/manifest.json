@@ -1,0 +1,25 @@
+﻿{
+    "name": "HqBaiduMusic",
+    "version": "2.0.0",
+    "manifest_version": 2,
+    "description": "百度音乐高品质下载扩展",
+    "homepage_url": "http://www.programlife.net/",
+    "icons":
+    {
+        "128": "ico_128.png",
+        "64": "ico_64.png",
+        "48": "ico_48.ico",
+        "32": "ico_32.ico",
+        "24": "ico_24.ico"
+    },
+    "permissions": ["tabs", "http://music.baidu.com/*"],
+    "content_scripts":
+    [
+        {
+            "matches": ["http://music.baidu.com/song/*/download*"],
+            "js": ["ParseHQ.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "options_page": "about.html"
+}
